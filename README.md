@@ -26,3 +26,9 @@ The geometry is schematic and uses exaggerated thicknesses, a rectangular wafer 
 ## Checks performed
 
 TypeScript/TSX syntax transpilation; strict compilation of the standalone simulation and layout modules; all six presets across three locales; all 441 die width/length grid combinations from 2–7 mm. Full Next.js build and browser/WebGL rendering are not verified in the authoring environment (project dependencies not installed).
+
+## v1.1 Mobile layout update
+
+- Hide **Process Scenarios** on phone and narrow tablet screens (viewport width ≤999 px), matching the Paste Type simulator.
+- Keep scenario buttons available on desktop (viewport width ≥1000 px).
+- 3D workflow, process parameters, and language support are unchanged.
